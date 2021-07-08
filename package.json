@@ -1,0 +1,14 @@
+{
+  "name": "osx-touchbar",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^13.1.6"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Joris Kok",
+  "license": "MIT"
+}
