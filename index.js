@@ -3,9 +3,9 @@ const path = require('path');
 const {TouchBarButton} = TouchBar
 
 // Settings
-const MAX_IMAGE = 5; // 21;
-const CHARACTER_AMOUNT = 8; // Max 8
 const DIRECTORY = 'hydralisk';
+const TOTAL_FRAMES = 5; // If 5.png is the last, use 5;
+const CHARACTER_AMOUNT = 8; // The amount of characters you want displayed (max 8)
 
 let frame = 0;
 const createCharacter = (frame) => {
@@ -26,7 +26,7 @@ const createImage = () => {
 const characters = new Array(CHARACTER_AMOUNT).fill(null).map(() => createCharacter(frame));
 
 const animateFrames = () => {
-  if (frame === MAX_IMAGE) {
+  if (frame === TOTAL_FRAMES) {
     frame = 0;
   } else {
     frame++;
