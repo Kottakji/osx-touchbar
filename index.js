@@ -6,6 +6,7 @@ const {TouchBarButton} = TouchBar
 const DIRECTORY = 'hydralisk';
 const TOTAL_FRAMES = 5; // If 5.png is the last, use 5;
 const CHARACTER_AMOUNT = 8; // The amount of characters you want displayed (max 8)
+const SPEED = 100;
 
 let frame = 0;
 const createCharacter = (frame) => {
@@ -35,7 +36,7 @@ const animateFrames = () => {
 }
 
 const animate = () => {
-  setInterval(animateFrames, 30)
+  setInterval(animateFrames, SPEED)
 };
 
 const touchBar = new TouchBar({
