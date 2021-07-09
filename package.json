@@ -2,12 +2,13 @@
   "name": "osx-touchbar",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
   "dependencies": {
-    "electron": "^13.1.6"
+    "electron": "^13.1.6",
+    "neat-csv": "^6.0.1"
   },
   "scripts": {
-    "start": "electron ."
+    "zerg": "electron zerg.js",
+    "dict": "electron dict.js"
   },
   "author": "Joris Kok",
   "license": "MIT"

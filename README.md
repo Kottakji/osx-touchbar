@@ -1,16 +1,24 @@
 # osx-touchbar
 
-Zerglings in your touchbar
-
-## How to run 
+## Installation
 
 `npm install`
-`npm run start`
 
-## Change the assets
+## Fun mode
 
-- Update `assets/character/{DIRECTORY}/{frame}.png`
-- Update the settings in the `index.js` file (DIRECTORY and TOTAL_FRAMES)
+Show Starcraft 2 zerglings or hydralisks
+
+`npm run zerg`
+
+## Learning mode
+
+Simple flashcard app for Chinese
+
+`npm run dict`
+
+## How to customize
+
+You can modify some of the constants located at the top of the `.js` files, or change the assets.
 
 ## Docs
 
