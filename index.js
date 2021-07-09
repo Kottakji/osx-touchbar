@@ -19,8 +19,8 @@ const createCharacter = (frame) => {
 
 const createImage = () => {
   return nativeImage.createFromPath(path.join(__dirname, `assets/character/${DIRECTORY}/${frame}.png`)).resize({
-    width: 16,
-    height: 16,
+    width: 32,
+    height: 32,
   })
 }
 
